@@ -78,9 +78,9 @@ st.markdown("""
 img = Image.open("Image_for_Banner_ARTTA.png")
 with st.container():
     st.markdown('<div class="banner-img-container">', unsafe_allow_html=True)
-    st.image(img, use_column_width=True)
+    st.image(img, use_container_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
-
+    
 st.markdown("""
     <div class="title-banner">
         <h1>📚 ARTTA v2: Academic Research Trend Analyzer</h1>
