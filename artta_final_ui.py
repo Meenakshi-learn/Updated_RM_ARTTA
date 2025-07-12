@@ -18,7 +18,7 @@ nltk.download('wordnet')
 st.set_page_config(page_title="ARTTA | Academic Research Analyzer", layout="wide", page_icon="📘")
 
 # --- Header Image + Banner ---
-st.image("Image_for_Banner_ARTTA.png", use_column_width=True)
+st.image("Image_for_Banner_ARTTA.png", use_container_width=True)
 
 st.markdown("""
     <div style="background-color:#004080;padding:20px;border-radius:12px;margin-bottom:20px">
