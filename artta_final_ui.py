@@ -62,8 +62,38 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Header Image + Banner ---
-st.image("Image_for_Banner_ARTTA.png", use_container_width=True)
 st.markdown("""
+    <style>
+        .banner-img img {
+            max-height: 140px;
+            width: 100%;
+            object-fit: contain;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .title-banner {
+            background-color: #003366;
+            padding: 14px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .title-banner h1, .title-banner h4 {
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+        .title-banner h4 {
+            font-weight: normal;
+            font-size: 18px;
+            margin-top: 5px;
+        }
+    </style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+    <div class="banner-img">
+        <img src="Image_for_Banner_ARTTA.png">
+    </div>
     <div class="title-banner">
         <h1>📚 ARTTA v2: Academic Research Trend Analyzer</h1>
         <h4>Developed by Meenakshi & R Ankitha | DSU</h4>
