@@ -11,6 +11,7 @@ from sklearn.decomposition import LatentDirichletAllocation
 import matplotlib.pyplot as plt
 import seaborn as sns
 from wordcloud import WordCloud
+from PIL import Image
 
 nltk.download('stopwords')
 nltk.download('wordnet')
@@ -32,61 +33,6 @@ st.markdown("""
         .stSidebar {
             background-color: #e3f2fd !important;
         }
-        .title-banner {
-            background-color: #003366;
-            padding: 20px;
-            border-radius: 12px;
-            margin-bottom: 20px;
-        }
-        .title-banner h1, .title-banner h4 {
-            color: white;
-            text-align: center;
-        }
-        .description-box {
-            background-color: #f0f4f8;
-            padding: 12px 25px;
-            border-left: 5px solid #004080;
-            border-radius: 8px;
-            margin-bottom: 20px;
-            font-size: 16px;
-        }
-        .stTabs [role="tab"] {
-            background-color: #e8f0fe;
-            border: none;
-        }
-        .stTabs [role="tab"][aria-selected="true"] {
-            background-color: #d0e2ff;
-            font-weight: bold;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
-# --- Header Image + Banner ---
- <style>
-        .banner-img-container {
-            max-height: 140px;
-            overflow: hidden;
-            border-radius: 10px;
-            margin-bottom: 10px;
-        }
-        .title-banner {
-            background-color: #003366;
-            padding: 14px;
-            border-radius: 12px;
-            margin-bottom: 20px;
-        }
-        .title-banner h1, .title-banner h4 {
-            color: white;
-            text-align: center;
-            margin: 0;
-        }
-        .title-banner h4 {
-            font-weight: normal;
-            font-size: 18pfrom PIL import Image
-
-# --- Header Styling & Image Display ---
-st.markdown("""
-    <style>
         .banner-img-container {
             max-height: 140px;
             overflow: hidden;
@@ -109,24 +55,38 @@ st.markdown("""
             font-size: 18px;
             margin-top: 6px;
         }
+        .description-box {
+            background-color: #f0f4f8;
+            padding: 12px 25px;
+            border-left: 5px solid #004080;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .stTabs [role="tab"] {
+            background-color: #e8f0fe;
+            border: none;
+        }
+        .stTabs [role="tab"][aria-selected="true"] {
+            background-color: #d0e2ff;
+            font-weight: bold;
+        }
     </style>
 """, unsafe_allow_html=True)
 
-# Load and Display Banner Image (make sure the image file is in the same directory)
+# --- Header Image + Banner ---
 img = Image.open("Image_for_Banner_ARTTA.png")
 with st.container():
     st.markdown('<div class="banner-img-container">', unsafe_allow_html=True)
     st.image(img, use_column_width=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
-# Title Banner
 st.markdown("""
     <div class="title-banner">
         <h1>📚 ARTTA v2: Academic Research Trend Analyzer</h1>
         <h4>Developed by Meenakshi & R Ankitha | DSU</h4>
     </div>
 """, unsafe_allow_html=True)
-
 
 # --- Sidebar ---
 with st.sidebar:
