@@ -15,15 +15,58 @@ from wordcloud import WordCloud
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-st.set_page_config(page_title="ARTTA | Academic Research Analyzer", layout="wide", page_icon="📘")
+# --- Page Config ---
+st.set_page_config(
+    page_title="ARTTA | Academic Research Analyzer",
+    layout="wide",
+    page_icon="📘"
+)
+
+# --- Custom CSS Styling ---
+st.markdown("""
+    <style>
+        body {
+            background-color: #f9fbfc;
+            color: #1a1a1a;
+        }
+        .stSidebar {
+            background-color: #e3f2fd !important;
+        }
+        .title-banner {
+            background-color: #003366;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .title-banner h1, .title-banner h4 {
+            color: white;
+            text-align: center;
+        }
+        .description-box {
+            background-color: #f0f4f8;
+            padding: 12px 25px;
+            border-left: 5px solid #004080;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .stTabs [role="tab"] {
+            background-color: #e8f0fe;
+            border: none;
+        }
+        .stTabs [role="tab"][aria-selected="true"] {
+            background-color: #d0e2ff;
+            font-weight: bold;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 # --- Header Image + Banner ---
 st.image("Image_for_Banner_ARTTA.png", use_container_width=True)
-
 st.markdown("""
-    <div style="background-color:#004080;padding:20px;border-radius:12px;margin-bottom:20px">
-        <h1 style="color:white;text-align:center;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
-        <h4 style="color:#cce6ff;text-align:center;">Developed by Meenakshi & R Ankitha | DSU</h4>
+    <div class="title-banner">
+        <h1>📚 ARTTA v2: Academic Research Trend Analyzer</h1>
+        <h4>Developed by Meenakshi & R Ankitha | DSU</h4>
     </div>
 """, unsafe_allow_html=True)
 
@@ -32,26 +75,27 @@ with st.sidebar:
     st.image("RESEARCH.jpg", width=200)
     st.title("📌 About ARTTA")
     st.markdown("""
-    **Academic Research Trend Topic Analyzer**  
-    👩‍💻 Developed by:  
-    - Meenakshi  ENG24CSE0013  
-    - R Ankitha  ENG24CSE0002  
+        **Academic Research Trend Topic Analyzer**  
+        👩‍💻 Developed by:  
+        - Meenakshi  ENG24CSE0013  
+        - R Ankitha  ENG24CSE0002  
 
-    🧑‍🏫 Supervised by:  
-    - Dr. Prabhakar M  
+        🧑‍🏫 Supervised by:  
+        - Dr. Prabhakar M  
 
-    🎓 M.Tech - Data Science  
-    Dayananda Sagar University  
+        🎓 M.Tech - Data Science  
+        Dayananda Sagar University  
 
-    📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
-    🌐 [Live App](https://streamlit.io/cloud)  
+        📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
+        🌐 [Live App](https://streamlit.io/cloud)  
     """)
 
 # --- Intro Box ---
 st.markdown("""
-<div style="background-color:#f2f2f2;padding:10px 25px;border-left:5px solid #004080;border-radius:5px;margin-bottom:20px">
-<b>Welcome to ARTTA</b> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv. Visualize key terms, discover focus areas, and uncover hidden themes across disciplines.
-</div>
+    <div class="description-box">
+        <b>Welcome to ARTTA</b> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.  
+        Visualize key terms, discover focus areas, and uncover hidden themes across disciplines.
+    </div>
 """, unsafe_allow_html=True)
 
 # --- Input box ---
