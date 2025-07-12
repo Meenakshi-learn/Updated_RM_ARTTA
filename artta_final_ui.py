@@ -17,11 +17,13 @@ nltk.download('wordnet')
 
 st.set_page_config(page_title="ARTTA | Academic Research Analyzer", layout="wide", page_icon="📘")
 
-# --- Header Banner ---
+# --- Header Image + Banner ---
+st.image("Image_for_Banner_ARTTA.png", use_column_width=True)
+
 st.markdown("""
     <div style="background-color:#004080;padding:20px;border-radius:12px;margin-bottom:20px">
         <h1 style="color:white;text-align:center;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
-        <h4 style="color:#cce6ff;text-align:center;">Developed by Meenakshi & R Ankitha| DSU</h4>
+        <h4 style="color:#cce6ff;text-align:center;">Developed by Meenakshi & R Ankitha | DSU</h4>
     </div>
 """, unsafe_allow_html=True)
 
