@@ -21,7 +21,7 @@ st.set_page_config(page_title="ARTTA | Academic Research Analyzer", layout="wide
 st.markdown("""
     <div style="background-color:#004080;padding:20px;border-radius:12px;margin-bottom:20px">
         <h1 style="color:white;text-align:center;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
-        <h4 style="color:#cce6ff;text-align:center;">Developed by R Ankitha & Meenakshi | DSU</h4>
+        <h4 style="color:#cce6ff;text-align:center;">Developed by Meenakshi & R Ankitha| DSU</h4>
     </div>
 """, unsafe_allow_html=True)
 
@@ -32,8 +32,8 @@ with st.sidebar:
     st.markdown("""
     **Academic Research Trend Topic Analyzer**  
     👩‍💻 Developed by:  
-    - R Ankitha  ENG24CSE0002  
     - Meenakshi  ENG24CSE0013  
+    - R Ankitha  ENG24CSE0002  
 
     🧑‍🏫 Supervised by:  
     - Dr. Prabhakar M  
