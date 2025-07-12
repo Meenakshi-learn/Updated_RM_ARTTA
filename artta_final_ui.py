@@ -62,12 +62,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- Header Image + Banner ---
-st.markdown("""
-    <style>
-        .banner-img img {
+ <style>
+        .banner-img-container {
             max-height: 140px;
-            width: 100%;
-            object-fit: contain;
+            overflow: hidden;
             border-radius: 10px;
             margin-bottom: 10px;
         }
@@ -85,15 +83,23 @@ st.markdown("""
         .title-banner h4 {
             font-weight: normal;
             font-size: 18px;
-            margin-top: 5px;
+            margin-top: 6px;
         }
     </style>
 """, unsafe_allow_html=True)
 
+# Load image in a Python-safe way
+from PIL import Image
+img = Image.open("Image_for_Banner_ARTTA.png")
+
+# Display image inside a styled container
+with st.container():
+    st.markdown('<div class="banner-img-container">', unsafe_allow_html=True)
+    st.image(img, use_column_width=True)
+    st.markdown('</div>', unsafe_allow_html=True)
+
+# Title Banner
 st.markdown("""
-    <div class="banner-img">
-        <img src="Image_for_Banner_ARTTA.png">
-    </div>
     <div class="title-banner">
         <h1>📚 ARTTA v2: Academic Research Trend Analyzer</h1>
         <h4>Developed by Meenakshi & R Ankitha | DSU</h4>
