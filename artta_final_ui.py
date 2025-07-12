@@ -82,17 +82,38 @@ st.markdown("""
         }
         .title-banner h4 {
             font-weight: normal;
+            font-size: 18pfrom PIL import Image
+
+# --- Header Styling & Image Display ---
+st.markdown("""
+    <style>
+        .banner-img-container {
+            max-height: 140px;
+            overflow: hidden;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .title-banner {
+            background-color: #003366;
+            padding: 14px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+        .title-banner h1, .title-banner h4 {
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+        .title-banner h4 {
+            font-weight: normal;
             font-size: 18px;
             margin-top: 6px;
         }
     </style>
 """, unsafe_allow_html=True)
 
-# Load image in a Python-safe way
-from PIL import Image
+# Load and Display Banner Image (make sure the image file is in the same directory)
 img = Image.open("Image_for_Banner_ARTTA.png")
-
-# Display image inside a styled container
 with st.container():
     st.markdown('<div class="banner-img-container">', unsafe_allow_html=True)
     st.image(img, use_column_width=True)
@@ -105,6 +126,7 @@ st.markdown("""
         <h4>Developed by Meenakshi & R Ankitha | DSU</h4>
     </div>
 """, unsafe_allow_html=True)
+
 
 # --- Sidebar ---
 with st.sidebar:
