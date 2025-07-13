@@ -82,7 +82,6 @@ import streamlit as st
 # Load image
 img = Image.open("ARTTA-art.jpg")
 
-
 # --- Side-by-side banner layout ---
 col1, col2 = st.columns([1.5, 2])  # You can tweak these ratios
 
@@ -97,8 +96,8 @@ with col2:
             border-radius: 10px;
             height: 100%;
         ">
-            <h1 style="color:white; margin-bottom:10px;">📚 Welcome to ARTTA — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.</h1>
-            <h4 style="color:#cce6ff;">Visualize key terms, discover focus areas, and uncover hidden themes across disciplines </h4>
+            <h1 style="color:white; margin-bottom:10px;">📚 Welcome to ARTTA </h1> <h4 style="color:#cce6ff;"> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.
+            Visualize key terms, discover focus areas, and uncover hidden themes across disciplines </h4>
         </div>
     """, unsafe_allow_html=True)
 
