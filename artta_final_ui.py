@@ -83,7 +83,7 @@ import streamlit as st
 img = Image.open("ARTTA-art.jpg")
 
 # --- Side-by-side banner layout ---
-col1, col2 = st.columns([1.5, 2])  # You can tweak these ratios
+col1, col2 = st.columns([1.5, 2])  # can tweak these ratios
 
 with col1:
     st.image(img, use_container_width=True)
@@ -93,10 +93,10 @@ with col2:
         <div style="
             background-color:#854442;
             padding: 30px 20px;
-            border-radius: 10px;
+            border-radius: 5px;
             height: 100%;
         ">
-            <h1 style="color:white; margin-bottom:10px;">Welcome to ARTTA</h1> <h4 style="color:#cce6ff;"> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.
+            <h1 style="color:white; margin-bottom:5px;">Welcome To ARTTA</h1> <h4 style="color:#cce6ff;"> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.
             Visualize key terms, discover focus areas, and uncover hidden themes across disciplines </h4>
         </div>
     """, unsafe_allow_html=True)
@@ -117,7 +117,7 @@ with col2:
             height: 100%;
         ">
             <h1 style="color:white; margin-bottom:10px;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
-            <h4 style="color:#cce6ff;">Developed by <b>Meenakshi & R Ankitha</b> | M.Tech | Dayananda Sagar University</h4>
+            <h4 style="color:#cce6ff;">Developed by <b>Meenakshi & R Ankitha</b> M.Tech | Dayananda Sagar University</h4>
         </div>
     """, unsafe_allow_html=True)
 
@@ -149,8 +149,8 @@ with st.sidebar:
 # --- Intro Box ---
 st.markdown("""
     <div class="description-box">
-        <b>Welcome to ARTTA</b> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.  
-        Visualize key terms, discover focus areas, and uncover hidden themes across disciplines.
+        <b>ARTTA Empowers Researchers & Educators</b> — To Make 
+Data-Driven, Timely & Impactful Decisions In Academic Exploration.
     </div>
 """, unsafe_allow_html=True)
 
