@@ -99,7 +99,6 @@ with st.sidebar:
     st.markdown("""
 **Academic Research Trend Topic Analyzer**  
 
-st.markdown("""
 **👩‍💻 Developed by:**  
 <span style='color:#007acc;'>• Meenakshi [ENG24CSE0013]</span><br>
 <span style='color:#007acc;'>• R Ankitha [ENG24CSE0002]</span><br><br>
@@ -112,7 +111,6 @@ Dayananda Sagar University<br><br>
 <span style='color:#007acc;'>Dr. Prabhakar M</span><br>
 Professor, Computer Science & Engineering  
 Dayananda Sagar University
-""", unsafe_allow_html=True)
 
 📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
 🌐 [Live App](https://streamlit.io/cloud)
