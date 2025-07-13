@@ -91,12 +91,12 @@ with col1:
 with col2:
     st.markdown("""
         <div style="
-            background-color:#004080;
+            background-color:#854442;
             padding: 30px 20px;
             border-radius: 10px;
             height: 100%;
         ">
-            <h1 style="color:white; margin-bottom:10px;">📚 Welcome to ARTTA </h1> <h4 style="color:#cce6ff;"> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.
+            <h1 style="color:white; margin-bottom:10px;">Welcome to ARTTA</h1> <h4 style="color:#cce6ff;"> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.
             Visualize key terms, discover focus areas, and uncover hidden themes across disciplines </h4>
         </div>
     """, unsafe_allow_html=True)
