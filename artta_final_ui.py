@@ -74,24 +74,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- Header Image + Banner ---
-img = Image.open("Image_for_Banner_ARTTA.png")
-col1, col2 = st.columns([1.5, 2])
-with col1:
-    st.image(img, use_container_width=True)
-with col2:
-    st.markdown("""
-        <div style="
-            background-color:#004080;
-            padding: 30px 20px;
-            border-radius: 10px;
-            height: 100%;
-        ">
-            <h1 style="color:white; margin-bottom:10px;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
-            <h4 style="color:#cce6ff;">Developed by <b>Meenakshi & R Ankitha</b> | DSU</h4>
-        </div>
-    """, unsafe_allow_html=True)
-
 # CHECK_BEGIN
 # --- Header Image + Banner ---
 from PIL import Image
@@ -121,6 +103,24 @@ with col2:
     """, unsafe_allow_html=True)
 
 # CHECK_END
+
+# --- Header Image + Banner ---
+img = Image.open("Image_for_Banner_ARTTA.png")
+col1, col2 = st.columns([1.5, 2])
+with col1:
+    st.image(img, use_container_width=True)
+with col2:
+    st.markdown("""
+        <div style="
+            background-color:#004080;
+            padding: 30px 20px;
+            border-radius: 10px;
+            height: 100%;
+        ">
+            <h1 style="color:white; margin-bottom:10px;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
+            <h4 style="color:#cce6ff;">Developed by <b>Meenakshi & R Ankitha</b> | DSU</h4>
+        </div>
+    """, unsafe_allow_html=True)
 
 # --- Sidebar ---
 with st.sidebar:
