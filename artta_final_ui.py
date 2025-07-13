@@ -99,19 +99,23 @@ with st.sidebar:
     st.markdown("""
 **Academic Research Trend Topic Analyzer**  
 
-👩‍💻 **Developed by:**
-- **Meenakshi**  [ENG24CSE0013]  
-- **R Ankitha**  [ENG24CSE0002]
+st.markdown("""
+<p>
+👩‍💻 <b>Developed by:</b><br>
+<span style='color:#007acc; font-weight:bold;'>Meenakshi</span> [ENG24CSE0013]<br>
+<span style='color:#007acc; font-weight:bold;'>R Ankitha</span> [ENG24CSE0002]<br><br>
 
-🎓 **M.Tech**  
-Computer Science & Engineering  
-Dayananda Sagar University
+🎓 <b>M.Tech</b><br>
+<b>Computer Science & Engineering</b><br>
+<b>Dayananda Sagar University</b><br><br>
 
-🧑‍🏫 **Supervised by:**  
-**Dr. Prabhakar M**  
-**Professor**  
-Computer Science & Engineering  
-Dayananda Sagar University 
+🧑‍🏫 <b>Supervised by:</b><br>
+<span style='color:#007acc; font-weight:bold;'>Dr. Prabhakar M</span><br>
+<b>Professor</b><br>
+<b>Computer Science & Engineering</b><br>
+<b>Dayananda Sagar University</b>
+</p>
+""", unsafe_allow_html=True)
 
 📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
 🌐 [Live App](https://streamlit.io/cloud)
