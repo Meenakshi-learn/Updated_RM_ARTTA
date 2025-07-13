@@ -74,19 +74,25 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# --- Header Image + Banner ---
+from PIL import Image
+import streamlit as st
+
+# Load image
 img = Image.open("Image_for_Banner_ARTTA.png")
-with st.container():
-    st.markdown('<div class="banner-img-container">', unsafe_allow_html=True)
+
+# --- Side-by-side layout using columns ---
+col1, col2 = st.columns([1.5, 2])  # Adjust width ratio as needed
+
+with col1:
     st.image(img, use_container_width=True)
-    st.markdown('</div>', unsafe_allow_html=True)
-    
-st.markdown("""
-    <div class="title-banner">
-        <h1>📚 ARTTA v2: Academic Research Trend Analyzer</h1>
-        <h4>Developed by Meenakshi & R Ankitha | DSU</h4>
-    </div>
-""", unsafe_allow_html=True)
+
+with col2:
+    st.markdown("""
+        <div style="padding-top:30px;">
+            <h1 style="color:#003366;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
+            <h4 style="color:#555555;">Developed by <b>Meenakshi & R Ankitha</b> | DSU</h4>
+        </div>
+    """, unsafe_allow_html=True)
 
 # --- Sidebar ---
 with st.sidebar:
