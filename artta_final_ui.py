@@ -111,7 +111,7 @@ with col1:
 with col2:
     st.markdown("""
         <div style="
-            background-color:#004080;
+            background-color:#4b3832;
             padding: 5px 20px;
             border-radius: 10px;
             height: 100%;
