@@ -117,7 +117,7 @@ with col2:
             height: 100%;
         ">
             <h1 style="color:white; margin-bottom:10px;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
-            <h4 style="color:#cce6ff;">Developed by <b>Meenakshi & R Ankitha</b> | DSU</h4>
+            <h4 style="color:#cce6ff;">Developed by <b>Meenakshi & R Ankitha</b> | M.Tech | Dayananda Sagar University</h4>
         </div>
     """, unsafe_allow_html=True)
 
