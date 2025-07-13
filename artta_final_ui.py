@@ -106,7 +106,7 @@ with st.sidebar:
 🧑‍🏫 Supervised by:  
 - Dr. Prabhakar M  
 
-🎓 **M.Tech**  
+🎓 **M.Tech**
 **Computer Science & Engineering**  
 Dayananda Sagar University  
 
