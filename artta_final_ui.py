@@ -107,6 +107,12 @@ with st.sidebar:
 **Computer Science & Engineering**  
 **Dayananda Sagar University**
 
+🧑‍🏫 **Supervised by:**  
+**Dr. Prabhakar M**  
+**Professor**  
+**Computer Science & Engineering**  
+**Dayananda Sagar University** 
+
 📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
 🌐 [Live App](https://streamlit.io/cloud)
 """)
