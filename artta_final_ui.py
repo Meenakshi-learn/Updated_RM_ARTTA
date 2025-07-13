@@ -100,15 +100,15 @@ with st.sidebar:
 **Academic Research Trend Topic Analyzer**  
 
 👩‍💻 Developed by:  
-- Meenakshi  ENG24CSE0013  
-- R Ankitha  ENG24CSE0002  
+- Meenakshi  [ENG24CSE0013]  
+- R Ankitha  [ENG24CSE0002]  
 
 🧑‍🏫 Supervised by:  
 - Dr. Prabhakar M  
 
-🎓 **M.Tech**
-**Computer Science & Engineering**  
-**Dayananda Sagar University**  
+🎓 M.Tech
+Computer Science & Engineering
+Dayananda Sagar University  
 
 📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
 🌐 [Live App](https://streamlit.io/cloud)
