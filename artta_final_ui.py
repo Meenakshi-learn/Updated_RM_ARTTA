@@ -114,7 +114,7 @@ with st.sidebar:
         🧑‍🏫 Supervised by:  
         - Dr. Prabhakar M  
 
-        🎓 M.Tech - Data Science  
+        🎓 M.Tech - Computer Science & Engineering
         Dayananda Sagar University  
 
         📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
