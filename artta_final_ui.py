@@ -100,21 +100,18 @@ with st.sidebar:
 **Academic Research Trend Topic Analyzer**  
 
 st.markdown("""
-<p>
-👩‍💻 <b>Developed by:</b><br>
-<span style='color:#007acc; font-weight:bold;'>Meenakshi</span> [ENG24CSE0013]<br>
-<span style='color:#007acc; font-weight:bold;'>R Ankitha</span> [ENG24CSE0002]<br><br>
+**👩‍💻 Developed by:**  
+<span style='color:#007acc;'>• Meenakshi [ENG24CSE0013]</span><br>
+<span style='color:#007acc;'>• R Ankitha [ENG24CSE0002]</span><br><br>
 
-🎓 <b>M.Tech</b><br>
-<b>Computer Science & Engineering</b><br>
-<b>Dayananda Sagar University</b><br><br>
+**🎓 M.Tech**  
+Computer Science & Engineering  
+Dayananda Sagar University<br><br>
 
-🧑‍🏫 <b>Supervised by:</b><br>
-<span style='color:#007acc; font-weight:bold;'>Dr. Prabhakar M</span><br>
-<b>Professor</b><br>
-<b>Computer Science & Engineering</b><br>
-<b>Dayananda Sagar University</b>
-</p>
+**🧑‍🏫 Supervised by:**  
+<span style='color:#007acc;'>Dr. Prabhakar M</span><br>
+Professor, Computer Science & Engineering  
+Dayananda Sagar University
 """, unsafe_allow_html=True)
 
 📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
