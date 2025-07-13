@@ -92,6 +92,36 @@ with col2:
         </div>
     """, unsafe_allow_html=True)
 
+# CHECK_BEGIN
+# --- Header Image + Banner ---
+from PIL import Image
+import streamlit as st
+
+# Load image
+img = Image.open("ARTTA-art.jpg")
+
+
+# --- Side-by-side banner layout ---
+col1, col2 = st.columns([1.5, 2])  # You can tweak these ratios
+
+with col1:
+    st.image(img, use_container_width=True)
+
+with col2:
+    st.markdown("""
+        <div style="
+            background-color:#004080;
+            padding: 30px 20px;
+            border-radius: 10px;
+            height: 100%;
+        ">
+            <h1 style="color:white; margin-bottom:10px;">📚 Welcome to ARTTA — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.</h1>
+            <h4 style="color:#cce6ff;">Visualize key terms, discover focus areas, and uncover hidden themes across disciplines </h4>
+        </div>
+    """, unsafe_allow_html=True)
+
+# CHECK_END
+
 # --- Sidebar ---
 with st.sidebar:
     st.image("RESEARCH.jpg", width=200)
