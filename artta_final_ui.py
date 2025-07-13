@@ -114,14 +114,11 @@ with st.sidebar:
         🧑‍🏫 Supervised by:  
         - Dr. Prabhakar M  
 
-        st.markdown("""
-<p>
-<span style="font-size:20px;">🎓</span> <b>M.Tech</b><br>
-<b>Computer Science & Engineering</b><br>
+       st.markdown(r"""
+🎓 **M.Tech**  
+**Computer Science & Engineering**  
 Dayananda Sagar University
-</p>
-""", unsafe_allow_html=True)
-
+""")
         📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
         🌐 [Live App](https://streamlit.io/cloud)  
     """)
