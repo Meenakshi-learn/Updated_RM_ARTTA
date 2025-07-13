@@ -92,8 +92,8 @@ with col2:
     st.markdown("""
         <div style="
             background-color:#854442;
-            padding: 30px 20px;
-            border-radius: 5px;
+            padding: 5px 20px;
+            border-radius: 10px;
             height: 100%;
         ">
             <h1 style="color:white; margin-bottom:5px;">Welcome To ARTTA</h1> <h4 style="color:#cce6ff;"> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.
@@ -112,7 +112,7 @@ with col2:
     st.markdown("""
         <div style="
             background-color:#004080;
-            padding: 30px 20px;
+            padding: 5px 20px;
             border-radius: 10px;
             height: 100%;
         ">
@@ -149,8 +149,8 @@ with st.sidebar:
 # --- Intro Box ---
 st.markdown("""
     <div class="description-box">
-        <b>ARTTA Empowers Researchers & Educators</b> — To Make 
-Data-Driven, Timely & Impactful Decisions In Academic Exploration.
+        <b>ARTTA Empowers Researchers & Educators</b> To Make 
+Data-Driven, Timely & Apt Decisions In Academic Exploration.
     </div>
 """, unsafe_allow_html=True)
 
