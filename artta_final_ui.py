@@ -108,7 +108,7 @@ with st.sidebar:
 
 🎓 **M.Tech**
 **Computer Science & Engineering**  
-Dayananda Sagar University  
+**Dayananda Sagar University**  
 
 📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
 🌐 [Live App](https://streamlit.io/cloud)
