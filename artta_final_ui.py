@@ -100,8 +100,8 @@ with st.sidebar:
 **Academic Research Trend Topic Analyzer**  
 
 👩‍💻 **Developed by:**
-- **Meenakshi**  [ENG24CSE0013]  
-- **R Ankitha**  [ENG24CSE0002]
+**Meenakshi**  [ENG24CSE0013]  
+**R Ankitha**  [ENG24CSE0002]
 
 🎓 **M.Tech**  
 **Computer Science & Engineering**  
