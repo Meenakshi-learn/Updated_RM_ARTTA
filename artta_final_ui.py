@@ -99,14 +99,14 @@ with st.sidebar:
     st.markdown("""
 **Academic Research Trend Topic Analyzer**  
 
-👩‍💻 Developed by:  
+👩‍💻 **Developed by:**  
 - Meenakshi  [ENG24CSE0013]  
 - R Ankitha  [ENG24CSE0002]  
 
-🧑‍🏫 Supervised by:  
+🧑‍🏫 **Supervised by:**  
 - Dr. Prabhakar M  
 
-🎓 M.Tech  
+🎓 **M.Tech**  
 Computer Science & Engineering  
 Dayananda Sagar University    
 
