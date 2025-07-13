@@ -96,8 +96,8 @@ with col2:
             border-radius: 10px;
             height: 100%;
         ">
-            <h1 style="color:white; margin-bottom:5px;">Welcome To ARTTA</h1> <h4 style="color:#cce6ff;"> — an intelligent tool to analyze trending research topics in real time using live abstracts from arXiv.
-            Visualize key terms, discover focus areas, and uncover hidden themes across disciplines </h4>
+            <h1 style="color:white; margin-bottom:5px;">Welcome To ARTTA</h1> 
+            <h4 style="color:#cce6ff;"> An Intelligent Tool To Analyze Trending Research Topics In Real Time Using Live Abstracts From arXiv - Enabling User To Visualize Key Terms, Discover Focus Areas, And Uncover Hidden Themes Across Disciplines. </h4>
         </div>
     """, unsafe_allow_html=True)
 
@@ -116,7 +116,7 @@ with col2:
             border-radius: 10px;
             height: 100%;
         ">
-            <h1 style="color:white; margin-bottom:10px;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
+            <h1 style="color:#ffe599; margin-bottom:10px;">📚 ARTTA v2: Academic Research Trend Analyzer</h1>
             <h4 style="color:#cce6ff;">Developed by <b>Meenakshi & R Ankitha</b> M.Tech | Dayananda Sagar University</h4>
         </div>
     """, unsafe_allow_html=True)
