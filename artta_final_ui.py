@@ -99,9 +99,9 @@ with st.sidebar:
     st.markdown("""
 **Academic Research Trend Topic Analyzer**  
 
-👩‍💻 **Developed by:**
+👩‍💻 **Developed by:**  
 **Meenakshi**  [ENG24CSE0013]  
-**R Ankitha**  [ENG24CSE0002]
+**R Ankitha**  [ENG24CSE0002]  
 
 🎓 **M.Tech**  
 **Computer Science & Engineering**  
