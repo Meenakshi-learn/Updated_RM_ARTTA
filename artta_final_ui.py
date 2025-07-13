@@ -99,18 +99,13 @@ with st.sidebar:
     st.markdown("""
 **Academic Research Trend Topic Analyzer**  
 
-**👩‍💻 Developed by:**  
-<span style='color:#007acc;'>• Meenakshi [ENG24CSE0013]</span><br>
-<span style='color:#007acc;'>• R Ankitha [ENG24CSE0002]</span><br><br>
+👩‍💻 **Developed by:**
+- **Meenakshi**  [ENG24CSE0013]  
+- **R Ankitha**  [ENG24CSE0002]
 
-**🎓 M.Tech**  
-Computer Science & Engineering  
-Dayananda Sagar University<br><br>
-
-**🧑‍🏫 Supervised by:**  
-<span style='color:#007acc;'>Dr. Prabhakar M</span><br>
-Professor, Computer Science & Engineering  
-Dayananda Sagar University
+🎓 **M.Tech**  
+**Computer Science & Engineering**  
+**Dayananda Sagar University**
 
 📂 [GitHub Repo](https://github.com/Meenakshi-learn)  
 🌐 [Live App](https://streamlit.io/cloud)
